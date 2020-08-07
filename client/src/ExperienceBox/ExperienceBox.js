@@ -4,15 +4,15 @@ function ExperienceBox() {
 
     return (
         <div className="grid">
-            <div>
+            <div className="title-grid">
                 <h1>Experience</h1>
             </div>
-            <div>
+            <div className="list-grid">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Job 1</li>
+                    <li>Job 2</li>
+                    <li>Job 3</li>
+                    <li>Job 4</li>
                 </ul>
             </div>
         </div>

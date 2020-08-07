@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "left-column right-column";
+}
+
+.left-column-grid {
+    grid-area: left-column;
+}
+
+.right-column-grid {
+    grid-area: right-column;
+}
