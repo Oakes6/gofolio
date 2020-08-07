@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .App-logo {
@@ -36,3 +38,20 @@
     transform: rotate(360deg);
   }
 }
+
+.background-color {
+  color: #191e21;
+}
+
+.primary-color {
+  color:#e9edf0;
+}
+
+.secondary-color {
+  color: #878e96;
+}
+
+.effect-color {
+  color: #8acaab;
+}
+
