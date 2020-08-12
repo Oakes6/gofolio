@@ -9,10 +9,7 @@ function ExperienceBox() {
             </div>
             <div className="list-grid">
                 <ul>
-                    <li>Job 1</li>
-                    <li>Job 2</li>
-                    <li>Job 3</li>
-                    <li>Job 4</li>
+                    <li>Thing 1</li>
                 </ul>
             </div>
         </div>

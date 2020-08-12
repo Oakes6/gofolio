@@ -1,15 +1,16 @@
 /* grid */
 .grid {
     display: grid;
-    grid-template-columns: 10% auto 10%;
-    grid-template-rows: auto;
-    grid-template-areas:
-      ". namebox .";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* grid-template-areas:
+      ". namebox ."; */
   }
   
-  .namebox-grid {
-    grid-area: namebox;
-    grid-column-start: 1;
+  .grid-item {
+    /* grid-area: namebox; */
+    /* grid-column-start: 1; */
+    background-color: red;
   }
   
   .coffee-pic {
