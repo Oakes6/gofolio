@@ -1,0 +1,28 @@
+.header-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px;
+    grid-auto-flow: column;
+    margin-bottom: 150px;
+    color: #e9edf0;
+    border-bottom: solid 1px #878e96;
+}
+
+.header-grid-item {
+
+}
+
+.header-item-a {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.header-item-b {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.header-item-c {
+    grid-column: 4;
+    grid-row: 1;
+}

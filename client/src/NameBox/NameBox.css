@@ -1,20 +1,37 @@
 /* grid */
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    /* grid-template-areas:
-      ". namebox ."; */
-  }
-  
-  .grid-item {
-    /* grid-area: namebox; */
-    /* grid-column-start: 1; */
-    background-color: red;
-  }
-  
-  .coffee-pic {
-    padding: 1fr;
-    max-width: 40%;
-  }
+.name {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.namebox-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  /* place-items: stretch; */
+  /* gap: 70px; */
+  grid-auto-flow: row;
+  color: #444;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 65px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Fenix-Regular';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.coffee-pic {
+  /* padding: 1fr; */
+  /* max-width: 70%; */
+  /* place */
+  width: 1050px;
+  height: 600px;
+  margin-bottom: 50px;
+  /* object-fit: cover; */
+  /* padding-right: 10px; */
+}
   

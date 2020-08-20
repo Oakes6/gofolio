@@ -24,14 +24,14 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 50px;
+    grid-template-rows: 200px 200px;
     grid-gap: 10px;
     color: #444;
 }
 
 .container-item {
     border-radius: 5px;
-    background-color: red;
+    background-color: #8acaab;
     box-shadow: var(--boxShadow);
     border: solid .5px black;
     color: white

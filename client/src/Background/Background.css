@@ -1,0 +1,41 @@
+.background-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: row;
+    margin-top: 50px;
+    border-top: solid 1px #878e96;
+    padding-top: 10px;
+}
+
+.background-grid-item {
+    color: #e9edf0;
+    /* display: block; */
+    margin: 10px;
+    border-bottom: solid 1px #878e96;
+}
+
+.background-grid-title {
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: end;
+}
+
+.background-grid-item-a {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.background-grid-item-b {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.background-grid-item-c {
+    grid-row: 3;
+    grid-column: 1;    
+}
+
+.background-grid-item-d {
+    grid-row: 4;
+    grid-column: 1;    
+}

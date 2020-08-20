@@ -1,11 +1,10 @@
 import React from 'react';
-import './ExperienceBox.css';
+import './Background.css';
 
-function ExperienceBox() {
+const Background = () => {
     return (
-        <div className="experience-grid">
-            <h1 className="section-title">Experience</h1>
-            <div className="experience-item-a experience-item">
+        <div className="background-grid">
+            <div className="background-grid-item-a background-grid-item">
                 <h3 className="experience-role">Software Engineer/API Developer</h3>
                 <span className="experience-secondary secondary-color">ExxonMobil</span>
                 <br/>
@@ -13,7 +12,7 @@ function ExperienceBox() {
                 <br />
                 <span className="experience-time">Feb. 2019 - Current</span>
             </div>
-            <div className="experience-item-b experience-item">
+            <div className="background-grid-item-b background-grid-item">
                 <h3 className="experience-role">Software Engineering Intern</h3>
                 <span className="experience-secondary secondary-color">Dynetics, Inc.</span>
                 <br/>
@@ -21,7 +20,7 @@ function ExperienceBox() {
                 <br />
                 <span className="experience-time">Summer 2018</span>
             </div>
-            <div className="experience-item-c experience-item">
+            <div className="background-grid-item-c background-grid-item">
                 <h3 className="experience-role">Software Engineering Intern</h3>
                 <span className="experience-secondary secondary-color">Dynetics, Inc.</span>
                 <br />
@@ -29,7 +28,7 @@ function ExperienceBox() {
                 <br />
                 <span className="experience-time">Summer 2017</span>
             </div>
-            <div className="experience-item-d experience-item">
+            <div className="background-grid-item-d background-grid-item">
                 <h3 className="experience-role">Data Science Intern</h3>
                 <span className="experience-secondary secondary-color">NextGxDx, Inc.</span>
                 <br />
@@ -37,9 +36,11 @@ function ExperienceBox() {
                 <br />
                 <span className="experience-time">Summer 2016</span>
             </div>
-            
+            <div className="background-grid-title">
+                <h1 className="section-title">Background</h1>
+            </div>
         </div>
     )
 }
 
-export default ExperienceBox;
+export default Background;
