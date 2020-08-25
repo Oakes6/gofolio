@@ -1,6 +1,46 @@
 @font-face {
   font-family:"Fenix-Regular";
-  src: url("./Fenix/Fenix-Regular.ttf");
+  src: url("./fonts/Fenix/Fenix-Regular.ttf");
+}
+
+@font-face {
+  font-family: Neuton;
+  src: url("./fonts/EB_Garamond,Neuton,Noto_Serif,Source_Serif_Pro/Neuton/Neuton-Regular.ttf")
+}
+
+@font-face {
+  font-family: EBGaramond;
+  src: url("./fonts/EB_Garamond,Neuton,Noto_Serif,Source_Serif_Pro/EB_Garamond/EBGaramond-VariableFont_wght.ttf")
+}
+
+@font-face {
+  font-family: NotoSerif;
+  src: url("./fonts/EB_Garamond,Neuton,Noto_Serif,Source_Serif_Pro/Noto_Serif/NotoSerif-Regular.ttf")
+}
+
+@font-face {
+  font-family: SourceSerifPro;
+  src: url("./fonts/EB_Garamond,Neuton,Noto_Serif,Source_Serif_Pro/Source_Serif_Pro/SourceSerifPro-Regular.ttf")
+}
+
+@font-face {
+  font-family: Lora;
+  src: url("./fonts/Lora/Lora-VariableFont_wght.ttf")
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url("./fonts/Merriweather/Merriweather-Regular.ttf")
+}
+
+@font-face {
+  font-family: PTSerif;
+  src: url("./fonts/PT_Serif/PTSerif-Regular.ttf")
+}
+
+@font-face {
+  font-family: RobotoSlab;
+  src: url("./fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf")
 }
 
 body {

@@ -21,7 +21,7 @@
     background-color: white;
 } */
 
-.container {
+.projects-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px;
@@ -29,11 +29,11 @@
     color: #444;
 }
 
-.container-item {
+.projects-container-item {
     border-radius: 5px;
     background-color: #8acaab;
     box-shadow: var(--boxShadow);
-    border: solid .5px black;
+    border: solid 1px black;
     color: white
     /* padding: 16px; */
     /* display: flex;
@@ -42,3 +42,19 @@
     /* z-index: 1; */
     /* justify-self: stretch; */
 }
+
+.projects-title {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.projects-container-item-a {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.projects-container-item-b {
+    grid-row: 2;
+    grid-column: 2;
+}
+

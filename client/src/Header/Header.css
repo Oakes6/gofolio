@@ -3,9 +3,11 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50px;
     grid-auto-flow: column;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
+    margin-top: 25px;
     color: #e9edf0;
-    border-bottom: solid 1px #878e96;
+    border-bottom: solid thin #293036;
+    font-weight: 600;
 }
 
 .header-grid-item {

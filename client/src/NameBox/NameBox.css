@@ -1,3 +1,7 @@
+h1 {
+  font-weight: 600;
+}
+
 /* grid */
 .name {
   grid-column: 1;
@@ -16,12 +20,12 @@
 }
 
 .title {
-  font-size: 65px;
+  font-size: 60px;
   margin: 0px;
   padding: 0px;
-  font-family: 'Fenix-Regular';
-  font-weight: bold;
-  font-style: normal;
+  font-family: 'EBGaramond';
+  /* font-weight: regula; */
+  /* font-style: regular; */
 }
 
 .coffee-pic {
