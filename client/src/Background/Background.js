@@ -32,7 +32,7 @@ const Background = () => {
                     <li className="experience-time">Javascript, React, Node, Mongo</li>
                 </ul>
             </div>
-            <div className="background-grid-item-d background-grid-item">
+            <div style={{"border-bottom": "none"}} className="background-grid-item-d background-grid-item">
                 <h3 className="experience-role">Reference Architecture Guide Author</h3>
                 <ul>
                     <li className="experience-secondary secondary-color">Wrote guide detailing steps for achieving network reverse proxy</li>

@@ -35,7 +35,7 @@ function ExperienceBox() {
                     <li className="experience-time">Summer 2017</li>
                 </ul>
             </div>
-            <div className="experience-item-d experience-item">
+            <div style={{"border-bottom": "none"}} className="experience-item-d experience-item">
                 <h3 className="experience-role">Data Science Intern</h3>
                 <ul>
                     <li className="experience-secondary secondary-color">NextGxDx, Inc.</li>

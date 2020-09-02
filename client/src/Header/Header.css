@@ -27,4 +27,5 @@
 .header-item-c {
     grid-column: 4;
     grid-row: 1;
+    justify-self: right;
 }

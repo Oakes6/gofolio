@@ -1,3 +1,5 @@
+@import url("../App.css");
+
 .footer-grid {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -17,4 +19,14 @@
 
 .footer-grid-item-d {
     justify-self: end;
+}
+
+a {
+    color: #e9edf0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a:hover {
+    color:  #8acaab;
 }

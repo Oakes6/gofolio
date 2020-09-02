@@ -15,10 +15,10 @@ function NameBox() {
                     <h1 className="secondary-color title">Backend Developer based in TX</h1>
                 </div>
                 <div className="pic">
+                    <img src={Second} className="coffee-pic" alt="nighthawks" />
                 </div>
             </div>
             {/* <figure className=""> */}
-            <img src={Second} className="coffee-pic" alt="nighthawks" />
                 {/* <img src={Fourth} className="coffee-pic" alt="nighthawks" /> */}
             {/* </figure> */}
         </div>
