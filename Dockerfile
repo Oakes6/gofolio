@@ -1,19 +1,29 @@
-FROM golang
-FROM node
+FROM node:latest as builder
 
-ENV HOME=/app
+WORKDIR /client
 
-WORKDIR /app
+COPY ./client .
 
-COPY . .
+RUN npm install
+RUN npm run build
+
+FROM golang:latest
+
+WORKDIR /client
+
+COPY --from=builder ./client/build .
+
+WORKDIR /go/src/gofolio/server
+
+COPY ./server .
 
 USER root
 
-RUN cd client && npm install && npm run build
-
-RUN npm install
+RUN go get -d -v ./...
+RUN go install -v ./...
 
 USER 1001
 
 EXPOSE 8080
-CMD [ "go", "run"]
+
+CMD [ "server"]

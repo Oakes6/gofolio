@@ -1,9 +1,9 @@
 import React from 'react';
 import CoffeeDoddle from '../CoffeeDoddle.svg';
-import First from '../nighthawks\ humaaans/first.png';
-import Second from '../nighthawks\ humaaans/second.png';
-import Third from '../nighthawks\ humaaans/third.png';
-import Fourth from '../nighthawks\ humaaans/fourth.png';
+import First from '../images/nighthawks\ humaaans/first.png';
+import Second from '../images/nighthawks\ humaaans/second.png';
+import Third from '../images/nighthawks\ humaaans/third.png';
+import Fourth from '../images/nighthawks\ humaaans/fourth.png';
 import "./NameBox.css";
 
 function NameBox() {
