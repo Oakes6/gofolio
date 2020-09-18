@@ -37,11 +37,13 @@
 .projects-grid-item {
     border-radius: 5px;
     border: solid 1px #8acaab;
+    padding: 5px;
 }
 
 .projects-container-item-a {
     grid-row: 1;
     grid-column: 1;
+    display: inline-block;
 }
 
 .projects-container-item-b {
@@ -49,8 +51,22 @@
     grid-column: 2;
 }
 
+.projects-container-title {
+    color: #e9edf0; 
+}
+
 .go-logo {
-    max-width: 35%;
-    object-fit: none;
+    /* max-width: 35%; */
+    /* object-fit: none; */
     /* padding-left: 5px; */
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.react-logo {
+    object-fit: none;
+    /* width: 100px; */
+    color: #e9edf0;
+    font-size: 40px;
 }

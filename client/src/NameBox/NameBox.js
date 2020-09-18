@@ -12,7 +12,7 @@ function NameBox() {
             <div className="namebox-grid">
                 <div className="name">
                     <h1 className="primary-color title">Tanner Oakes</h1>
-                    <h1 className="secondary-color title">Backend Developer based in TX</h1>
+                    <h1 className="secondary-color title-secondary">Backend Developer based in TX</h1>
                 </div>
                 <div className="pic">
                     <img src={Second} className="coffee-pic" alt="nighthawks" />
