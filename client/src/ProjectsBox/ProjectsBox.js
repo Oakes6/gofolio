@@ -17,12 +17,12 @@ function ProjectsBox() {
                 <div className="projects-grid-item projects-grid-item-a">
                     <h3 className="projects-container-title">GUID Generator</h3>
                     <p className="secondary-color">Use GUIDs in your Go project with this lib!</p>
-                    <p className="secondary-color" style={{display: "inline-block"}}>Built with: <img src={GoLogo} className="go-logo" alt="golang" style={{"display": "inline-block"}} /> </p>
+                    <p className="secondary-color" style={{display: "inline-block"}}><img src={GoLogo} className="go-logo" alt="golang"/></p>
                 </div>
                 <div className="projects-grid-item projects-grid-item-b">
                     <h3 className="projects-container-title">Song Lyrics Player</h3>
                     <p className="secondary-color">Connect with your Spotify account view lyrics while you play songs from your playlists</p>
-                    <p className="secondary-color">Built with: <FontAwesomeIcon className="react-logo" icon={faReact} spin/> </p>
+                    <p className="secondary-color"><FontAwesomeIcon className="react-logo" icon={faReact} spin/> </p>
                 </div>
                 {/* <div className="projects-grid-item projects-grid-item-b"></div> */}
             </div>

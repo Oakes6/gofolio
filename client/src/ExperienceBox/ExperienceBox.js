@@ -4,7 +4,9 @@ import './ExperienceBox.css';
 function ExperienceBox() {
     return (
         <div className="experience-grid">
-            <h1 className="section-title">Experience</h1>
+            <div className="section-title">
+                <h1>Experience</h1>
+            </div>
             <div className="experience-item-a experience-item">
                 <h3 className="experience-role">Software Engineer/API Developer</h3>
                 <ul>
