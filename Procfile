@@ -1,1 +1,1 @@
-web: docker run -it --publish $PORT:$PORT --detach --name running-gofolio 758dc92651e1
+web: docker run -it --publish $PORT:$PORT -e PORT=5000 --detach --name running-gofolio registry.heroku.com/gofolio/web
