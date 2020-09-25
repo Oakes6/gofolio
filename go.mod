@@ -1,3 +1,3 @@
-module github.com/Oakes6/gofolio/server
+module github.com/Oakes6/gofolio
 
 go 1.14

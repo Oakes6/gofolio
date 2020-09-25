@@ -1,1 +1,1 @@
-web: docker run -it --detach --name my-running-app 758dc92651e1
+web: docker run -it --publish $PORT:$PORT --detach --name running-gofolio 758dc92651e1

@@ -1,4 +1,4 @@
-FROM node:latest as builder
+FROM node:latest as node-builder
 
 WORKDIR /client
 
@@ -7,23 +7,25 @@ COPY ./client .
 RUN npm install
 RUN npm run build
 
-FROM golang:latest
+FROM golang:latest as go-builder
 
-WORKDIR /client
+WORKDIR /go/src/gofolio/
 
-COPY --from=builder ./client/build .
-
-WORKDIR /go/src/gofolio/server
-
-COPY ./server .
+COPY server.go .
 
 USER root
 
-RUN go get -d -v ./...
-RUN go install -v ./...
+RUN go get -d -v .
+RUN CGO_ENABLED=0 GOOS=linux go build -a -v -installsuffix cgo -o server .
 
 USER 1001
 
-EXPOSE 8080
+FROM scratch
 
-CMD [ "server"]
+WORKDIR /
+
+COPY --from=node-builder ./client/build /client/build
+
+COPY --from=go-builder /go/src/gofolio/server /
+
+CMD [ "/server"]
