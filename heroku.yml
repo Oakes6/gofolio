@@ -1,5 +1,5 @@
 build:
-    docker:
-      web: Dockerfile
+  docker:
+    web: Dockerfile
   run:
     web: docker run -it --publish $PORT:$PORTdocker run -it --publish $PORT:$PORT -e PORT=$PORT --detach --name running-gofolio registry.heroku.com/gofolio/web --detach --name running-gofolio registry.heroku.com/gofolio/web
