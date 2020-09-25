@@ -13,14 +13,10 @@ WORKDIR /go/src/gofolio/
 
 COPY server.go .
 
-USER root
-
 RUN go get -d -v .
 RUN CGO_ENABLED=0 GOOS=linux go build -a -v -installsuffix cgo -o server .
 
-USER 1001
-
-FROM scratch
+FROM alpine:latest
 
 WORKDIR /
 
