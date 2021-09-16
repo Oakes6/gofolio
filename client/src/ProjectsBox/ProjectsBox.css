@@ -17,6 +17,10 @@
     padding: 5px;
 }
 
+.projects-grid-item:hover {
+    border-color: #e9edf0;
+  }
+
 .projects-container-item-a {
     grid-row: 1;
     grid-column: 1;

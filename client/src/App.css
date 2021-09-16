@@ -47,6 +47,15 @@
   }
 }
 
+@keyframes highlight2 {
+  0% {
+    color: #8acaab;
+  }
+  100% {
+    color: #e9edf0;
+  }
+}
+
 .background-color {
   color: #191e21;
 }
