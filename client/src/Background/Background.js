@@ -3,7 +3,11 @@ import './Background.css';
 
 const Background = () => {
     return (
-        <div className="background-grid">
+        <div>
+            <div className="background-grid-title">
+                <h1 className="section-title">Background</h1>
+            </div>
+            <div className="background-grid">
             <div className="background-grid-item-a background-grid-item">
                 <h3 className="experience-role">Enterprise API Development</h3>
                 <ul>
@@ -27,9 +31,9 @@ const Background = () => {
             <div className="background-grid-item-c background-grid-item">
                 <h3 className="experience-role">Enterprise Web App Development</h3>
                 <ul>
-                    <li className="experience-secondary secondary-color">Helped develop replacement internal SPA site for new employees</li>
+                    <li className="experience-secondary secondary-color">Helped develop enhancements for a microservices application</li>
                     <br />
-                    <li className="experience-time">Javascript, React, Node, Mongo</li>
+                    <li className="experience-time">Python, Javascript, React, FastAPI, GraphDB</li>
                 </ul>
             </div>
             <div style={{"border-bottom": "none"}} className="background-grid-item-d background-grid-item">
@@ -40,8 +44,6 @@ const Background = () => {
                     <li className="experience-time">TLS</li>
                 </ul>
             </div>
-            <div className="background-grid-title">
-                <h1 className="section-title">Background</h1>
             </div>
         </div>
     )

@@ -19,11 +19,11 @@ function ProjectsBox() {
                     <p className="secondary-color">Use GUIDs in your Go project with this lib!</p>
                     <p className="secondary-color" style={{display: "inline-block"}}><img src={GoLogo} className="go-logo" alt="golang"/></p>
                 </div>
-                <div className="projects-grid-item projects-grid-item-b">
+                {/* <div className="projects-grid-item projects-grid-item-b">
                     <h3 className="projects-container-title">Song Lyrics Player</h3>
                     <p className="secondary-color">Connect with your Spotify account view lyrics while you play songs from your playlists</p>
                     <p className="secondary-color"><FontAwesomeIcon className="react-logo" icon={faReact} spin/> </p>
-                </div>
+                </div> */}
                 {/* <div className="projects-grid-item projects-grid-item-b"></div> */}
             </div>
         </div>

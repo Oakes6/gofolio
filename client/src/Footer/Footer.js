@@ -9,7 +9,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="footer-grid">
-            <div className="footer-grid-item">© 2020</div>
+            <div className="footer-grid-item">© 2021</div>
             <div className="footer-grid-item"></div>
             <div className="footer-grid-item footer-grid-item-c"></div>
             <div className="footer-grid-item footer-grid-item-d">

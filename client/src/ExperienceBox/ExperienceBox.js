@@ -3,10 +3,11 @@ import './ExperienceBox.css';
 
 function ExperienceBox() {
     return (
-        <div className="experience-grid">
+        <div >
             <div className="section-title">
                 <h1>Experience</h1>
             </div>
+            <div id="experiencebox" className="experience-grid">
             <div className="experience-item-a experience-item">
                 <h3 className="experience-role">Software Engineer/API Developer</h3>
                 <ul>
@@ -47,7 +48,7 @@ function ExperienceBox() {
                     <li className="experience-time">Summer 2016</li>
                 </ul>
             </div>
-            
+            </div>
         </div>
     )
 }
